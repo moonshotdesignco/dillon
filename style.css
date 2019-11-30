@@ -10,6 +10,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #0a0a0a;
   color: #fafafa;
+  text-transform: lowercase;
 }
 
 body a {
