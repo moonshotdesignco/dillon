@@ -38,10 +38,6 @@ body section#gallery {
   margin-bottom: 1rem;
 }
 
-body section#gallery a {
-  background: #ea6a6a;
-}
-
 body section#gallery img {
   display: grid;
   width: 100%;
@@ -49,7 +45,7 @@ body section#gallery img {
 }
 
 body section#gallery img:hover, body section#gallery img:active {
-  opacity: 0.5;
+  opacity: 0.4;
 }
 
 
