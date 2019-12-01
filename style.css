@@ -31,12 +31,50 @@ body p {
   margin-bottom: 3rem;
 }
 
-body img {
-  width: 100%;
-  height: 100%;
+body section#gallery {
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 1rem;
   margin-bottom: 1rem;
 }
 
-body img:hover {
+body section#gallery a {
+  background: #ea6a6a;
+}
+
+body section#gallery img {
+  display: grid;
+  width: 100%;
+  height: 100%;
+}
+
+body section#gallery img:hover, body section#gallery img:active {
   opacity: 0.5;
+}
+
+
+
+
+@media (min-width: 600px) {
+  
+  body section#gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  
+  body section#gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+@media (min-width: 1800px) {
+  
+  body section#gallery {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
 }
