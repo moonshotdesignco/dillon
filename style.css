@@ -17,6 +17,7 @@ body {
 body a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 body a:hover, body a:active {
@@ -43,6 +44,7 @@ body section#gallery {
 
 body section#gallery a {
   position: relative;
+  cursor: pointer;
 }
 
 body section#gallery a:hover, body section#gallery a:active {
@@ -71,6 +73,7 @@ body section#gallery div.hovertext {
   -webkit-transition: all 150ms linear;
   -o-transition: all 150ms linear;
   transition: all 150ms linear;
+  cursor: pointer;
 }
 
 body section#gallery div.hovertext:hover, body section#gallery div.hovertext:active {
