@@ -12,6 +12,7 @@ body {
   background: #0a0a0a;
   color: #fafafa;
   text-transform: lowercase;
+  text-align: center;
 }
 
 body a {
@@ -38,7 +39,8 @@ body section#gallery {
   -ms-grid-columns: auto;
   grid-template-columns: auto;
   grid-gap: 1rem;
-  margin-bottom: 1rem;
+  max-width: 1200px;
+  margin: auto auto 1rem;
 }
 
 body section#gallery a {
@@ -96,27 +98,18 @@ body section#gallery img {
 
 @media (min-width: 600px) {
   
-  body section#gallery {
-    -ms-grid-columns: 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
+  body section#gallery.main {
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
   }
 
 }
 
 @media (min-width: 1200px) {
   
-  body section#gallery {
-    -ms-grid-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-}
-
-@media (min-width: 1800px) {
-  
-  body section#gallery {
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+  body section#gallery.main {
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
   }
 
 }
