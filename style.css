@@ -29,6 +29,17 @@ body h1 {
   margin-bottom: 5rem;
 }
 
+body h2 {
+  font-size: 3rem;
+  margin-bottom: 3rem;
+}
+
+body img#dil {
+  width: 100%;
+  max-width: 450px;
+  margin: auto auto 2rem;
+}
+
 body p {
   margin-bottom: 3rem;
 }
@@ -40,7 +51,7 @@ body section#gallery {
   grid-template-columns: auto;
   grid-gap: 1rem;
   max-width: 1200px;
-  margin: auto auto 1rem;
+  margin: auto auto 2rem;
 }
 
 body section#gallery a {
