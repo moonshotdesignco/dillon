@@ -15,7 +15,7 @@ body {
   text-align: center;
 }
 
-section#preload {
+/* section#preload {
   position: fixed;
   top: 0;
   left: 0;
@@ -29,7 +29,7 @@ section#preload {
 
 section#load {
   display: none;
-}
+} */
 
 body a {
   text-decoration: none;
