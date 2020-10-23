@@ -1,6 +1,6 @@
 {
     "input": "dev/html/*.html",
-    "output": "./",
+    "output": "prod",
     "plugins": {
         "posthtml-modules": {
             "root": "./dev/html",
