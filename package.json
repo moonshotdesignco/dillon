@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:html": "posthtml -c posthtml.json"
+    "build:html": "posthtml -c posthtml.json",
+    "serve": "browser-sync start --server=\"prod\" --files=\"prod\""
   },
   "repository": {
     "type": "git",
